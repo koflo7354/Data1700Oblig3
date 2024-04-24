@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>oslomet</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>FinalOblig3Data1700</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
     <description>test</description>
