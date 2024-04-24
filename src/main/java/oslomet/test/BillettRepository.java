@@ -17,7 +17,8 @@ public class BillettRepository {
                 billett.getEtternavn(),billett.getTelefon(),billett.getEpost());
     }
     public List<kjoptBillett> hentAlleBilletter(){
-        String sql = "SELECT * FROM Billetter";
+        String sql = "SELECT * FROM Billetter" +
+                " ORDER BY etternavn";
         List<kjoptBillett> alleBilletter = db.query(sql, new BeanPropertyRowMapper(kjoptBillett.class));
         return alleBilletter;
     }
